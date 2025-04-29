@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #677ea8, #7e8eaa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:"ComicRelief-Regular", cursive;
+}
+
+.box-model {
+  background: linear-gradient(135deg, #c6daeb, #b0dbe6);
+  border: 2px solid #705d5d;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(180, 62, 62, 0.3);
+  padding: 30px;
+  max-width: 600px;
+  width: 80%;
+  text-align: center;
+}
+
+.theater-name {
+  font-size: 2.5rem;
+  color: #0b0c0e;
+  margin-bottom: 20px;
+}
+
+
+.video-container video {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #6b8fcc, #4a6ba8);
+  color: rgb(20, 19, 19);
+  font-family:"ComicRelief-Regular", cursive;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+}
